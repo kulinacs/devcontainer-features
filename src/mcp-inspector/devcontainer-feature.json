@@ -1,0 +1,22 @@
+{
+    "id": "mcp-inspector",
+    "version": "0.1.0",
+    "name": "MCP Inspector",
+    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/mcp-inspector",
+    "description": "Installs mcp-inspector",
+    "options": {},
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "github.copilot.chat.codeGeneration.instructions": [
+                    {
+                        "text": "This dev container includes the MCP Inspector (`mcp-inspector`) pre-installed and available on the `PATH`."
+                    }
+                ]
+            }
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/node": {}
+    }
+}

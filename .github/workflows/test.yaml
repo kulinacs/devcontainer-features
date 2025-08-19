@@ -14,8 +14,9 @@ jobs:
     strategy:
       matrix:
         features:
-          - gemini-cli
           - claude-code
+          - gemini-cli
+          - mcp-inspector
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -35,8 +36,9 @@ jobs:
     strategy:
       matrix:
         features:
-          - gemini-cli
           - claude-code
+          - gemini-cli
+          - mcp-inspector
     steps:
       - uses: actions/checkout@v4
 
