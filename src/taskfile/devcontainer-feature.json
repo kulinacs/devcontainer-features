@@ -1,6 +1,6 @@
 {
     "id": "taskfile",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "Taskfile",
     "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/taskfile",
     "description": "Installs the Task, the modern task runner",

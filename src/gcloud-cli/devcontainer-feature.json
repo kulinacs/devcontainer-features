@@ -1,6 +1,6 @@
 {
     "id": "gcloud-cli",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "Google Cloud CLI",
     "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/gcloud-cli",
     "description": "Installs the Google Cloud CLI",

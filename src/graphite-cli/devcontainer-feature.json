@@ -1,19 +1,19 @@
 {
-    "id": "gemini-cli",
+    "id": "graphite-cli",
     "version": "1.0.0",
-    "name": "Gemini CLI",
-    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/gemini-cli",
-    "description": "Installs the Gemini CLI",
+    "name": "Graphite CLI",
+    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/graphite-cli",
+    "description": "Installs the Graphite CLI",
     "options": {},
     "customizations": {
         "vscode": {
             "extensions": [
-                "google.gemini-cli-vscode-ide-companion"
+                "graphite.gti-vscode"
             ],
             "settings": {
                 "github.copilot.chat.codeGeneration.instructions": [
                     {
-                        "text": "This dev container includes the Gemini CLI (`gemini`) pre-installed and available on the `PATH`."
+                        "text": "This dev container includes the graphite CLI (`gt`) pre-installed and available on the `PATH`."
                     }
                 ]
             }

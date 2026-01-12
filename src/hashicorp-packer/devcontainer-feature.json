@@ -1,6 +1,6 @@
 {
     "id": "hashicorp-packer",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "Hashicorp Packer",
     "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/hashicorp-packer",
     "description": "Installs the Packer image building tool",

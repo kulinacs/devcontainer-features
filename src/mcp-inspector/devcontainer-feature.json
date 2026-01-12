@@ -1,6 +1,6 @@
 {
     "id": "mcp-inspector",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MCP Inspector",
     "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/mcp-inspector",
     "description": "Installs mcp-inspector",

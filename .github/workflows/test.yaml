@@ -17,7 +17,9 @@ jobs:
           - claude-code
           - gcloud-cli
           - gemini-cli
+          - graphite-cli
           - mcp-inspector
+          - taskfile
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -40,7 +42,10 @@ jobs:
           - claude-code
           - gcloud-cli
           - gemini-cli
+          - graphite-cli
+          - hashicorp-packer
           - mcp-inspector
+          - taskfile
     steps:
       - uses: actions/checkout@v4
 
