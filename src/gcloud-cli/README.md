@@ -7,7 +7,7 @@ Installs the Google Cloud CLI
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/gcloud-cli:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/gcloud-cli:1": {}
 }
 ```
 
