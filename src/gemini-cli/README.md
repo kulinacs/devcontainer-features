@@ -1,13 +1,13 @@
 
 # Gemini CLI (gemini-cli)
 
-Installs the Gemini CLI and Gemini Code Assist
+Installs the Gemini CLI
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/gemini-cli:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/gemini-cli:1": {}
 }
 ```
 
@@ -21,7 +21,7 @@ Installs the Gemini CLI and Gemini Code Assist
 
 ### VS Code Extensions
 
-- `google.geminicodeassist`
+- `google.gemini-cli-vscode-ide-companion`
 
 
 

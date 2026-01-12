@@ -7,7 +7,7 @@ Installs mcp-inspector
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/mcp-inspector:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/mcp-inspector:1": {}
 }
 ```
 

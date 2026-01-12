@@ -7,7 +7,7 @@ Installs the Claude Code CLI and Claude Code for VS Code
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/claude-code:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/claude-code:1": {}
 }
 ```
 

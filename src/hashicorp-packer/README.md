@@ -7,7 +7,7 @@ Installs the Packer image building tool
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/hashicorp-packer:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/hashicorp-packer:1": {}
 }
 ```
 

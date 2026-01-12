@@ -7,7 +7,7 @@ Installs the Graphite CLI
 
 ```json
 "features": {
-    "ghcr.io/kulinacs/devcontainer-features/graphite-cli:0": {}
+    "ghcr.io/kulinacs/devcontainer-features/graphite-cli:1": {}
 }
 ```
 
