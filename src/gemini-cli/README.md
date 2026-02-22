@@ -14,6 +14,7 @@ Installs the Gemini CLI
 
 | Options Id | Description | Type | Default Value |
 | ---------- | ----------- | ---- | ------------- |
+| channel | The release channel to install. | string | latest |
 
 ## Customizations
 

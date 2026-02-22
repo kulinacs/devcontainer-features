@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-npm install -g @google/gemini-cli
+set -e
+
+npm install -g @google/gemini-cli@"${CHANNEL}"

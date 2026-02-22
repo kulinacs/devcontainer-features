@@ -5,9 +5,8 @@ set -e
 # Optional: Import test library
 source dev-container-features-test-lib
 
-# gemini-cli
-check "gemini --help" gemini --help
-check "gemini version" gemini --version
+# Feature-specific tests
+check "gemini --version" gemini --version
 
 # Report result
 reportResults

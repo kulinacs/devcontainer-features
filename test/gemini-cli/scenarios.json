@@ -1,0 +1,26 @@
+{
+    "latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "gemini-cli": {
+                "channel": "latest"
+            }
+        }
+    },
+    "preview": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "gemini-cli": {
+                "channel": "preview"
+            }
+        }
+    },
+    "nightly": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "gemini-cli": {
+                "channel": "nightly"
+            }
+        }
+    }
+}
