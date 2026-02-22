@@ -7,9 +7,6 @@
   "options": {},
   "customizations": {
     "vscode": {
-      "extensions": [
-        "esbenp.prettier-vscode"
-      ],
       "settings": {
         "github.copilot.chat.codeGeneration.instructions": [
           {
