@@ -1,25 +1,23 @@
 {
-    "id": "gemini-cli",
-    "version": "1.0.0",
-    "name": "Gemini CLI",
-    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/gemini-cli",
-    "description": "Installs the Gemini CLI",
-    "options": {},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "google.gemini-cli-vscode-ide-companion"
-            ],
-            "settings": {
-                "github.copilot.chat.codeGeneration.instructions": [
-                    {
-                        "text": "This dev container includes the Gemini CLI (`gemini`) pre-installed and available on the `PATH`."
-                    }
-                ]
-            }
-        }
-    },
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/node": {}
+  "id": "gemini-cli",
+  "version": "1.0.0",
+  "name": "Gemini CLI",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/gemini-cli",
+  "description": "Installs the Gemini CLI",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["google.gemini-cli-vscode-ide-companion"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes the Gemini CLI (`gemini`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
     }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  }
 }

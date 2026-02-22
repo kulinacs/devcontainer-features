@@ -1,23 +1,21 @@
 {
-    "id": "taskfile",
-    "version": "1.0.0",
-    "name": "Taskfile",
-    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/taskfile",
-    "description": "Installs the Task, the modern task runner",
-    "options": {},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "task.vscode-task"
-            ],
-            "settings": {
-                "github.copilot.chat.codeGeneration.instructions": [
-                    {
-                        "text": "This dev container includes Taskfile (`task`) pre-installed and available on the `PATH`."
-                    }
-                ]
-            }
-        }
-    },
-    "dependsOn": {}
+  "id": "taskfile",
+  "version": "1.0.0",
+  "name": "Taskfile",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/taskfile",
+  "description": "Installs the Task, the modern task runner",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["task.vscode-task"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes Taskfile (`task`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {}
 }

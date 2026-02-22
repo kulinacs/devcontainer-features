@@ -9,7 +9,7 @@ These features largely are just an easier way to run common install scripts.
 ## Features
 
 | Feature            | Description                                              |
-|--------------------|----------------------------------------------------------|
+| ------------------ | -------------------------------------------------------- |
 | `claude-code`      | Installs the Claude Code CLI and Claude Code for VS Code |
 | `gcloud-cli`       | Installs the Google Cloud CLI                            |
 | `gemini-cli`       | Installs the Gemini CLI and Gemini Code Assist           |

@@ -1,25 +1,23 @@
 {
-    "id": "graphite-cli",
-    "version": "1.0.0",
-    "name": "Graphite CLI",
-    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/graphite-cli",
-    "description": "Installs the Graphite CLI",
-    "options": {},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "graphite.gti-vscode"
-            ],
-            "settings": {
-                "github.copilot.chat.codeGeneration.instructions": [
-                    {
-                        "text": "This dev container includes the graphite CLI (`gt`) pre-installed and available on the `PATH`."
-                    }
-                ]
-            }
-        }
-    },
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/node": {}
+  "id": "graphite-cli",
+  "version": "1.0.0",
+  "name": "Graphite CLI",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/graphite-cli",
+  "description": "Installs the Graphite CLI",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["graphite.gti-vscode"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes the graphite CLI (`gt`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
     }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  }
 }

@@ -1,25 +1,23 @@
 {
-    "id": "claude-code",
-    "version": "1.0.0",
-    "name": "Claude Code",
-    "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/claude-code",
-    "description": "Installs the Claude Code CLI and Claude Code for VS Code",
-    "options": {},
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "anthropic.claude-code"
-            ],
-            "settings": {
-                "github.copilot.chat.codeGeneration.instructions": [
-                    {
-                        "text": "This dev container includes Claude Code (`claude`) pre-installed and available on the `PATH`."
-                    }
-                ]
-            }
-        }
-    },
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/node": {}
+  "id": "claude-code",
+  "version": "1.0.0",
+  "name": "Claude Code",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/claude-code",
+  "description": "Installs the Claude Code CLI and Claude Code for VS Code",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["anthropic.claude-code"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes Claude Code (`claude`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
     }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  }
 }
