@@ -1,3 +1,4 @@
+
 # Prettier (prettier)
 
 Prettier is an opinionated code formatter.
@@ -13,14 +14,11 @@ Prettier is an opinionated code formatter.
 ## Options
 
 | Options Id | Description | Type | Default Value |
-| ---------- | ----------- | ---- | ------------- |
+|-----|-----|-----|-----|
 
-## Customizations
 
-### VS Code Extensions
 
-- `esbenp.prettier-vscode`
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kulinacs/devcontainer-features/blob/main/src/prettier/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kulinacs/devcontainer-features/blob/main/src/prettier/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
