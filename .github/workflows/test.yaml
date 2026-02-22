@@ -19,6 +19,7 @@ jobs:
           - gemini-cli
           - graphite-cli
           - mcp-inspector
+          - prettier
           - taskfile
           - uv
         baseImage:
@@ -46,6 +47,7 @@ jobs:
           - graphite-cli
           - hashicorp-packer
           - mcp-inspector
+          - prettier
           - taskfile
           - uv
     steps:

@@ -1,0 +1,25 @@
+{
+  "id": "prettier",
+  "version": "1.0.0",
+  "name": "Prettier",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/prettier",
+  "description": "Prettier is an opinionated code formatter.",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes Prettier (`prettier`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  }
+}

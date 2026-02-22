@@ -15,5 +15,6 @@ These features largely are just an easier way to run common install scripts.
 | `gemini-cli`       | Installs the Gemini CLI and Gemini Code Assist           |
 | `hashicorp-packer` | Installs the Packer image building tool                  |
 | `mcp-inspector`    | Installs mcp-inspector                                   |
+| `prettier`         | Installs Prettier, an opinionated code formatter         |
 | `taskfile`         | Installs the Task, the modern task runner                |
 | `uv`               | Installs uv, an extremely fast Python package manager    |
