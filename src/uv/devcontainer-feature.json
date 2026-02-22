@@ -1,0 +1,23 @@
+{
+  "id": "uv",
+  "version": "1.0.0",
+  "name": "uv",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/uv",
+  "description": "An extremely fast Python package and project manager, written in Rust.",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astral-sh.uv"
+      ],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes uv (`uv`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {}
+}

@@ -16,3 +16,4 @@ These features largely are just an easier way to run common install scripts.
 | `hashicorp-packer` | Installs the Packer image building tool                  |
 | `mcp-inspector`    | Installs mcp-inspector                                   |
 | `taskfile`         | Installs the Task, the modern task runner                |
+| `uv`               | Installs uv, an extremely fast Python package manager    |
