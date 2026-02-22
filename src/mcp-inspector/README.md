@@ -1,3 +1,4 @@
+
 # MCP Inspector (mcp-inspector)
 
 Installs mcp-inspector
@@ -13,8 +14,11 @@ Installs mcp-inspector
 ## Options
 
 | Options Id | Description | Type | Default Value |
-| ---------- | ----------- | ---- | ------------- |
+|-----|-----|-----|-----|
+
+
+
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kulinacs/devcontainer-features/blob/main/src/mcp-inspector/devcontainer-feature.json). Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/kulinacs/devcontainer-features/blob/main/src/mcp-inspector/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
