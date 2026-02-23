@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: prettier-local
+        name: prettier
+        entry: prettier --write
+        language: system
+        types: [file]
+        files: '\.(json|md|yaml|yml|sh)$'

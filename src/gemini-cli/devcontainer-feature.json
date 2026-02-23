@@ -7,20 +7,14 @@
   "options": {
     "channel": {
       "type": "string",
-      "proposals": [
-        "latest",
-        "preview",
-        "nightly"
-      ],
+      "proposals": ["latest", "preview", "nightly"],
       "default": "latest",
       "description": "The release channel to install."
     }
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "google.gemini-cli-vscode-ide-companion"
-      ],
+      "extensions": ["google.gemini-cli-vscode-ide-companion"],
       "settings": {
         "github.copilot.chat.codeGeneration.instructions": [
           {

@@ -7,9 +7,7 @@
   "options": {},
   "customizations": {
     "vscode": {
-      "extensions": [
-        "astral-sh.uv"
-      ],
+      "extensions": ["astral-sh.uv"],
       "settings": {
         "github.copilot.chat.codeGeneration.instructions": [
           {
