@@ -1,0 +1,31 @@
+{
+  "id": "knative",
+  "version": "1.0.0",
+  "name": "Knative CLI",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/knative",
+  "description": "Installs the Knative CLI (kn).",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["1.21.0"],
+      "default": "1.21.0",
+      "description": "The version of the Knative CLI (kn) to install."
+    },
+    "includeQuickstart": {
+      "type": "boolean",
+      "default": false,
+      "description": "Include the Knative Quickstart plugin. The plugin version will match the Knative CLI version."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes the Knative CLI (`kn`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  }
+}

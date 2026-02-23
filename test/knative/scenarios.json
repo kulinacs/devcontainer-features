@@ -1,0 +1,18 @@
+{
+  "default": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "knative": {
+        "includeQuickstart": false
+      }
+    }
+  },
+  "withquickstart": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "knative": {
+        "includeQuickstart": true
+      }
+    }
+  }
+}
