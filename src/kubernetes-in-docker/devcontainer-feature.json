@@ -1,0 +1,29 @@
+{
+  "id": "kubernetes-in-docker",
+  "version": "1.0.0",
+  "name": "Kubernetes in Docker (kind)",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/kubernetes-in-docker",
+  "description": "Installs the kind binary to run local Kubernetes clusters in Docker.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["0.23.0"],
+      "default": "0.23.0",
+      "description": "The version of kind to install."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes kind (`kind`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/docker-in-docker": {}
+  }
+}
