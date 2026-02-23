@@ -6,4 +6,4 @@ repos:
         entry: prettier --write
         language: system
         types: [file]
-        files: '\.(json|md|yaml|yml|sh)$'
+        files: '\.(json|md|yaml|yml)$'

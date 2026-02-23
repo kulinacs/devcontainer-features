@@ -1,0 +1,23 @@
+{
+  "id": "pre-commit",
+  "version": "1.0.0",
+  "name": "pre-commit",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/pre-commit",
+  "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "extensions": ["pre-commit.pre-commit"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes pre-commit (`pre-commit`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/python": {}
+  }
+}
