@@ -23,6 +23,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
       - name: Create PR for Documentation
         id: push_image_info
         env:
@@ -30,6 +35,8 @@ jobs:
         run: |
           set -e
           echo "Start."
+          # Format README.md files
+          npx prettier@latest --write **/README.md
           # Configure git and Push updates
           git config --global user.email github-actions[bot]@users.noreply.github.com
           git config --global user.name github-actions[bot]
