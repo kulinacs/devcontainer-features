@@ -23,4 +23,5 @@ These features largely are just an easier way to run common install scripts.
 | `ruff`                 | An extremely fast Python linter and code formatter, written in Rust.     |
 | `skaffold`             | Installs Skaffold, for continuous Kubernetes development                 |
 | `taskfile`             | Installs the Task, the modern task runner                                |
+| `ty`                   | An extremely fast Python type checker, written in Rust.                  |
 | `uv`                   | Installs uv, an extremely fast Python package manager                    |
