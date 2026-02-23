@@ -1,0 +1,27 @@
+{
+  "id": "skaffold",
+  "version": "1.0.0",
+  "name": "Skaffold",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/skaffold",
+  "description": "Skaffold is a command line tool that facilitates continuous development for Kubernetes applications.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["2.17.2"],
+      "default": "2.17.2",
+      "description": "The version of Skaffold to install."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["GoogleCloudTools.cloudcode"],
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes Skaffold (`skaffold`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  }
+}
