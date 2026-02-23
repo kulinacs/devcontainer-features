@@ -1,0 +1,20 @@
+{
+  "id": "ruff",
+  "version": "1.0.0",
+  "name": "ruff",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/ruff",
+  "description": "An extremely fast Python linter and code formatter, written in Rust.",
+  "options": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes ruff (`ruff`) pre-installed and available on the `PATH`."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {}
+}

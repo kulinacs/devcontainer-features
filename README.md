@@ -20,6 +20,7 @@ These features largely are just an easier way to run common install scripts.
 | `mcp-inspector`        | Installs mcp-inspector                                                   |
 | `pre-commit`           | A framework for managing and maintaining multi-language pre-commit hooks |
 | `prettier`             | Installs Prettier, an opinionated code formatter                         |
+| `ruff`                 | An extremely fast Python linter and code formatter, written in Rust.     |
 | `skaffold`             | Installs Skaffold, for continuous Kubernetes development                 |
 | `taskfile`             | Installs the Task, the modern task runner                                |
 | `uv`                   | Installs uv, an extremely fast Python package manager                    |
