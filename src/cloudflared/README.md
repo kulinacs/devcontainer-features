@@ -1,6 +1,6 @@
 # cloudflared (cloudflared)
 
-Cloudflare Tunnel client.
+Cloudflare Tunnel client
 
 ## Example Usage
 
