@@ -12,6 +12,7 @@ These features largely are just an easier way to run common install scripts.
 | ---------------------- | ------------------------------------------------------------------------ |
 | `claude-code`          | Installs the Claude Code CLI and Claude Code for VS Code                 |
 | `cloudflared`          | Cloudflare Tunnel client                                                 |
+| `devcontainer-cli`     | Installs the Dev Container CLI (`devcontainer`) using npm.               |
 | `gcloud-cli`           | Installs the Google Cloud CLI                                            |
 | `gemini-cli`           | Installs the Gemini CLI and Gemini Code Assist                           |
 | `graphite-cli`         | Installs the Graphite CLI                                                |

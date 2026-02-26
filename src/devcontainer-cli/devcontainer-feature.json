@@ -1,0 +1,29 @@
+{
+  "id": "devcontainer-cli",
+  "version": "1.0.0",
+  "name": "Dev Container CLI",
+  "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/devcontainer-cli",
+  "description": "Installs the Dev Container CLI (`devcontainer`) using npm.",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest"],
+      "default": "latest",
+      "description": "The version of the Dev Container CLI to install."
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "This dev container includes the Dev Container CLI (`devcontainer`) pre-installed and available on the PATH."
+          }
+        ]
+      }
+    }
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  }
+}
