@@ -1,10 +1,17 @@
 {
   "id": "claude-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Claude Code",
   "documentationURL": "https://github.com/kulinacs/devcontainer-features/tree/main/src/claude-code",
   "description": "Installs the Claude Code CLI and Claude Code for VS Code",
-  "options": {},
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["stable", "latest"],
+      "default": "stable",
+      "description": "The release version/channel to install."
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": ["anthropic.claude-code"],
@@ -16,8 +23,5 @@
         ]
       }
     }
-  },
-  "dependsOn": {
-    "ghcr.io/devcontainers/features/node": {}
   }
 }
