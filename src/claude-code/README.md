@@ -12,8 +12,9 @@ Installs the Claude Code CLI and Claude Code for VS Code
 
 ## Options
 
-| Options Id | Description | Type | Default Value |
-| ---------- | ----------- | ---- | ------------- |
+| Options Id | Description                             | Type   | Default Value |
+| ---------- | --------------------------------------- | ------ | ------------- |
+| version    | The release version/channel to install. | string | stable        |
 
 ## Customizations
 
